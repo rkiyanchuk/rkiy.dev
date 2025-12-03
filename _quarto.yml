@@ -1,9 +1,14 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+  resources:
+    - CNAME
 
 website:
-  description: "Cryptography & Software Engineering ||"
-  site-url: https://rkiy.cev # you must change this appropriately for RSS feeds to work properly
+  description: "Cryptography & Software Engineering> "
+  site-url: https://rkiy.dev # you must change this appropriately for RSS feeds to work properly
   title: "rkiy.dev"
   navbar:
     right:
@@ -27,3 +32,5 @@ format:
       - brand
     css: styles.css
 
+execute:
+  freeze: auto
