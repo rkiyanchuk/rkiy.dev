@@ -1,0 +1,10 @@
+<% for (const item of items) { %>
+<div class="post-item">
+<% if (item.image) { %><a href="<%= item.path %>" class="post-thumbnail"><img src="<%= item.image %>" alt="<%= item.title %>"></a><% } %>
+<div class="post-content">
+<h3 class="post-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
+<% if (item.date) { %><div class="post-date"><%= item.date %></div><% } %>
+<% if (item.categories) { %><div class="post-categories"><% for (const cat of item.categories) { %><span class="post-category"><%= cat %></span><% } %></div><% } %>
+</div>
+</div>
+<% } %>
