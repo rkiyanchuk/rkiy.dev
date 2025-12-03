@@ -8,9 +8,9 @@
 <title>rkiy.dev</title>
 <link>https://rkiy.dev/</link>
 <atom:link href="https://rkiy.dev/index.xml" rel="self" type="application/rss+xml"/>
-<description>Cryptography &amp; Software Engineering ||</description>
+<description>Cryptography &amp; Software Engineering&gt; </description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 02 Dec 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -239,7 +239,7 @@ font-style: inherit;">;</span></span></code></pre></div></div>
   <category>code</category>
   <category>analysis</category>
   <guid>https://rkiy.dev/posts/post-with-code/</guid>
-  <pubDate>Tue, 02 Dec 2025 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 03 Dec 2025 00:00:00 GMT</pubDate>
   <media:content url="https://rkiy.dev/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -261,7 +261,7 @@ font-style: inherit;">;</span></span></code></pre></div></div>
  ]]></description>
   <category>news</category>
   <guid>https://rkiy.dev/posts/welcome/</guid>
-  <pubDate>Sat, 29 Nov 2025 23:00:00 GMT</pubDate>
+  <pubDate>Sun, 30 Nov 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
