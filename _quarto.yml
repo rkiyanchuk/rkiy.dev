@@ -9,7 +9,7 @@ project:
 website:
   description: "Cryptography & Software Engineering> "
   site-url: https://rkiy.dev # you must change this appropriately for RSS feeds to work properly
-  title: "rkiy.dev"
+  title: "<rkiy.dev>"
   navbar:
     right:
       - about.qmd
