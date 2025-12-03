@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>rkiy.dev</title>
+<title>&lt;rkiy.dev&gt;</title>
 <link>https://rkiy.dev/</link>
 <atom:link href="https://rkiy.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>Cryptography &amp; Software Engineering&gt; </description>
