@@ -1,0 +1,95 @@
+---
+title: "Post With Code"
+author: "Harlow Malloc"
+date: "2025-12-03"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+
+## Headers and Text Formatting
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. **Bold text** and *italic text* can be used for emphasis. You can also use ~~strikethrough~~ and `inline code`.
+
+### Subheading Example
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Code Examples
+
+Here's a Python function:
+
+```python
+def fibonacci(n):
+    """Generate Fibonacci sequence up to n terms."""
+    a, b = 0, 1
+    result = []
+    for _ in range(n):
+        result.append(a)
+        a, b = b, a + b
+    return result
+
+print(fibonacci(10))
+```
+
+JavaScript example:
+
+```javascript
+const encrypt = (text, key) => {
+  return text
+    .split('')
+    .map((char, i) => String.fromCharCode(
+      char.charCodeAt(0) ^ key.charCodeAt(i % key.length)
+    ))
+    .join('');
+};
+```
+
+## Lists
+
+### Unordered List
+
+- Cryptographic protocols
+- Hash functions
+- Digital signatures
+- Key exchange mechanisms
+
+### Ordered List
+
+1. Generate key pair
+2. Share public key
+3. Encrypt message
+4. Send ciphertext
+5. Decrypt with private key
+
+## Blockquotes
+
+> Security is not a product, but a process. It's more than designing strong cryptography into a system; it's designing the entire system such that all security measures, including cryptography, work together.
+>
+> — Bruce Schneier
+
+## Tables
+
+| Algorithm | Type | Key Size | Status |
+|-----------|------|----------|--------|
+| AES | Symmetric | 128/256 bit | Secure |
+| RSA | Asymmetric | 2048+ bit | Secure |
+| SHA-256 | Hash | N/A | Secure |
+| MD5 | Hash | N/A | Broken |
+
+## Links and Images
+
+Visit the [Quarto documentation](https://quarto.org) for more information.
+
+![Post image](image.jpg)
+
+## Math Equations
+
+Inline math: $E = mc^2$
+
+Block equation:
+
+$$
+\text{RSA}: c = m^e \mod n
+$$

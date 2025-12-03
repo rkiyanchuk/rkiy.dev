@@ -5,3 +5,55 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* Blog listing: image left, title + date + tags right */
+.quarto-listing-default .quarto-post {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 0 1.5rem;
+  align-items: start;
+  border-bottom: none;
+}
+
+.quarto-listing-default .quarto-post .thumbnail {
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+.quarto-listing-default .quarto-post .thumbnail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.quarto-listing-default .quarto-post .body,
+.quarto-listing-default .quarto-post .metadata,
+.quarto-listing-default .quarto-post .metadata > a {
+  display: contents;
+}
+
+.quarto-listing-default .quarto-post .listing-title {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 0;
+}
+
+.quarto-listing-default .quarto-post .listing-date {
+  grid-column: 2;
+  grid-row: 2;
+  color: var(--bs-secondary);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.quarto-listing-default .quarto-post .listing-date::before {
+  content: "\01F4C5 ";
+}
+
+.quarto-listing-default .quarto-post .listing-categories {
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 0.25rem;
+}

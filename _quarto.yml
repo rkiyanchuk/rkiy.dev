@@ -7,9 +7,9 @@ project:
     - CNAME
 
 website:
-  description: "Cryptography & Software Engineering> "
+  description: "Cryptography & Software Engineering"
   site-url: https://rkiy.dev # you must change this appropriately for RSS feeds to work properly
-  title: "<rkiy.dev>"
+  title: "rkiy.dev"
   navbar:
     right:
       - about.qmd
@@ -31,6 +31,7 @@ format:
       - cosmo
       - brand
     css: styles.css
+date-format: "YYYY-MM-DD"
 
 execute:
   freeze: auto
