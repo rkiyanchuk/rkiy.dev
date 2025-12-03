@@ -1,5 +1,5 @@
 ---
-title: "Cryptography & Security Engineering"
+title: "Posts"
 listing:
   contents: posts
   feed: true

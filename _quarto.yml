@@ -2,22 +2,28 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "Cryptography & Software Engineering"
+  description: "Cryptography & Software Engineering ||"
+  site-url: https://rkiy.cev # you must change this appropriately for RSS feeds to work properly
+  title: "rkiy.dev"
   navbar:
     right:
       - about.qmd
+      # - icon: github
+      #   href: https://github.com/
+      # - icon: twitter
+      #   href: https://twitter.com
+  page-footer:
+    center: "Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+    right:
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/rkiyanchuk
+      - icon: linkedin
+        href: https://linkedin.com/in/rkiyanchuk
+
 format:
   html:
     theme:
       - cosmo
       - brand
     css: styles.css
-
-
 
