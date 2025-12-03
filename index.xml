@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>rkiy.dev</title>
+<link>https://rkiy.dev/</link>
+<atom:link href="https://rkiy.dev/index.xml" rel="self" type="application/rss+xml"/>
+<description>Cryptography &amp; Software Engineering ||</description>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 02 Dec 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://rkiy.dev/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<section id="headers-and-text-formatting" class="level2">
+<h2 class="anchored" data-anchor-id="headers-and-text-formatting">Headers and Text Formatting</h2>
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <strong>Bold text</strong> and <em>italic text</em> can be used for emphasis. You can also use <del>strikethrough</del> and <code>inline code</code>.</p>
+<section id="subheading-example" class="level3">
+<h3 class="anchored" data-anchor-id="subheading-example">Subheading Example</h3>
+<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+</section>
+<section id="code-examples" class="level2">
+<h2 class="anchored" data-anchor-id="code-examples">Code Examples</h2>
+<p>Here’s a Python function:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> fibonacci(n):</span>
+<span id="cb1-2">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""Generate Fibonacci sequence up to n terms."""</span></span>
+<span id="cb1-3">    a, b <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-4">    result <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> []</span>
+<span id="cb1-5">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> _ <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">range</span>(n):</span>
+<span id="cb1-6">        result.append(a)</span>
+<span id="cb1-7">        a, b <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> b, a <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> b</span>
+<span id="cb1-8">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> result</span>
+<span id="cb1-9"></span>
+<span id="cb1-10"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(fibonacci(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>))</span></code></pre></div></div>
+<p>JavaScript example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">const</span> encrypt <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (text<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> key) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">=&gt;</span> {</span>
+<span id="cb2-2">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> text</span>
+<span id="cb2-3">    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">split</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">''</span>)</span>
+<span id="cb2-4">    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">map</span>((char<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> i) <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">=&gt;</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">String</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">fromCharCode</span>(</span>
+<span id="cb2-5">      char<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">charCodeAt</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">^</span> key<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">charCodeAt</span>(i <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%</span> key<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">length</span>)</span>
+<span id="cb2-6">    ))</span>
+<span id="cb2-7">    <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">.</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">join</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">''</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb2-8">}<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span></code></pre></div></div>
+</section>
+<section id="lists" class="level2">
+<h2 class="anchored" data-anchor-id="lists">Lists</h2>
+<section id="unordered-list" class="level3">
+<h3 class="anchored" data-anchor-id="unordered-list">Unordered List</h3>
+<ul>
+<li>Cryptographic protocols</li>
+<li>Hash functions</li>
+<li>Digital signatures</li>
+<li>Key exchange mechanisms</li>
+</ul>
+</section>
+<section id="ordered-list" class="level3">
+<h3 class="anchored" data-anchor-id="ordered-list">Ordered List</h3>
+<ol type="1">
+<li>Generate key pair</li>
+<li>Share public key</li>
+<li>Encrypt message</li>
+<li>Send ciphertext</li>
+<li>Decrypt with private key</li>
+</ol>
+</section>
+</section>
+<section id="blockquotes" class="level2">
+<h2 class="anchored" data-anchor-id="blockquotes">Blockquotes</h2>
+<blockquote class="blockquote">
+<p>Security is not a product, but a process. It’s more than designing strong cryptography into a system; it’s designing the entire system such that all security measures, including cryptography, work together.</p>
+<p>— Bruce Schneier</p>
+</blockquote>
+</section>
+<section id="tables" class="level2">
+<h2 class="anchored" data-anchor-id="tables">Tables</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Algorithm</th>
+<th>Type</th>
+<th>Key Size</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AES</td>
+<td>Symmetric</td>
+<td>128/256 bit</td>
+<td>Secure</td>
+</tr>
+<tr class="even">
+<td>RSA</td>
+<td>Asymmetric</td>
+<td>2048+ bit</td>
+<td>Secure</td>
+</tr>
+<tr class="odd">
+<td>SHA-256</td>
+<td>Hash</td>
+<td>N/A</td>
+<td>Secure</td>
+</tr>
+<tr class="even">
+<td>MD5</td>
+<td>Hash</td>
+<td>N/A</td>
+<td>Broken</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="links-and-images" class="level2">
+<h2 class="anchored" data-anchor-id="links-and-images">Links and Images</h2>
+<p>Visit the <a href="https://quarto.org">Quarto documentation</a> for more information.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://rkiy.dev/posts/post-with-code/image.jpg" class="img-fluid figure-img"></p>
+<figcaption>Post image</figcaption>
+</figure>
+</div>
+</section>
+<section id="math-equations" class="level2">
+<h2 class="anchored" data-anchor-id="math-equations">Math Equations</h2>
+<p>Inline math: <img src="https://latex.codecogs.com/png.latex?E%20=%20mc%5E2"></p>
+<p>Block equation:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A%5Ctext%7BRSA%7D:%20c%20=%20m%5Ee%20%5Cmod%20n%0A"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://rkiy.dev/posts/post-with-code/</guid>
+  <pubDate>Tue, 02 Dec 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://rkiy.dev/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://rkiy.dev/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://rkiy.dev/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://rkiy.dev/posts/welcome/</guid>
+  <pubDate>Sat, 29 Nov 2025 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
