@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Quarto: Preview",
+    "command": "quarto",
+    "args": ["preview"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  },
+  {
+    "label": "Quarto: Render",
+    "command": "quarto",
+    "args": ["render"],
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always"
+  }
+]
