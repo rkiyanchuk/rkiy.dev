@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>&lt;rkiy.dev&gt;</title>
+<title>Cryptography &amp; Software Engineering</title>
 <link>https://rkiy.dev/</link>
 <atom:link href="https://rkiy.dev/index.xml" rel="self" type="application/rss+xml"/>
 <description>Cryptography &amp; Software Engineering&gt; </description>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Wed, 03 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
