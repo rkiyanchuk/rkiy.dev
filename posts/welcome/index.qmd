@@ -1,6 +1,5 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
 date: "2025-11-30"
 categories: [news]
 ---

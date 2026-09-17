@@ -2,21 +2,18 @@ project:
   type: website
   render:
     - "*.qmd"
-    - "!CLAUDE.md"
   resources:
     - CNAME
 
 website:
-  description: "Cryptography & Software Engineering> "
-  site-url: https://rkiy.dev # you must change this appropriately for RSS feeds to work properly
   title: "Cryptography & Software Engineering"
+  description: "Cryptography & Software Engineering"
+  site-url: https://rkiy.dev
   navbar:
     right:
       - about.qmd
-      # - icon: github
-      #   href: https://github.com/
-      # - icon: twitter
-      #   href: https://twitter.com
+      - icon: rss
+        href: index.xml
   page-footer:
     center: "Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
     right:

@@ -6,11 +6,11 @@ Personal blog on Cryptography & Security Engineering, built with
 
 ## Prerequisites
 
-Install Quarto (>= 1.4):
+Install Quarto (>= 1.7):
 
 ```bash
 brew install --cask quarto
-quarto --version
+quarto check
 ```
 
 ## Preview locally
@@ -43,7 +43,6 @@ quarto render posts/<post-name>/index.qmd
    ```yaml
    ---
    title: "My New Post"
-   author: "Ruslan Kiyanchuk"
    date: "2026-05-23"
    categories: [cryptography, notes]
    image: "thumbnail.jpg"   # optional; otherwise first image in post is used
@@ -56,8 +55,9 @@ quarto render posts/<post-name>/index.qmd
 4. Run `quarto preview` to see it on the homepage listing (sorted by `date`
    descending).
 
-Shared post settings live in `posts/_metadata.yml` (currently: `freeze: true`
-and `title-block-banner: true`).
+Shared post settings live in `posts/_metadata.yml` (currently: `author` and
+`title-block-banner: true`). Computational output caching is project-wide via
+`execute: freeze: auto` in `_quarto.yml`.
 
 ## Drafts
 
@@ -99,13 +99,14 @@ quarto publish gh-pages
 
 ## Project structure
 
-- `_quarto.yml` — site config (theme, navbar, footer, site URL).
-- `index.qmd` — homepage with the blog listing.
+- `_quarto.yml` — site config (theme, navbar, footer, site URL, freeze).
+- `index.qmd` — homepage with the blog listing and RSS feed.
 - `about.qmd` — about page (jolla template).
 - `posts/` — one directory per post; `_metadata.yml` holds shared post
   settings.
 - `styles.css` — custom CSS overrides on top of the `cosmo` theme.
-- `_site/` — rendered output (git-ignored; do not edit by hand).
+- `_site/`, `.quarto/` — rendered output and cache (git-ignored; do not edit
+  by hand).
 - `.github/workflows/publish.yml` — CI that renders and deploys to
   `gh-pages`.
 - `CNAME` — custom domain for GitHub Pages.
