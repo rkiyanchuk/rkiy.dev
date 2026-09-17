@@ -24,7 +24,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: [litera, custom.scss]
 
 execute:
   freeze: auto

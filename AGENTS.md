@@ -15,9 +15,10 @@ quarto check                             # verify toolchain
 
 ## Layout
 
-- `_quarto.yml` — site config: `litera` theme, navbar, footer, `site-url`,
-  `execute: freeze: auto`. Renders `*.qmd` only, so `README.md`/`AGENTS.md`
-  stay out of the site.
+- `_quarto.yml` — site config: `theme: [litera, custom.scss]`, navbar, footer,
+  `site-url`, `execute: freeze: auto`. Renders `*.qmd` only, so
+  `README.md`/`AGENTS.md` stay out of the site.
+- `custom.scss` — SCSS layer over `litera`; `fonts/` — self-hosted woff2.
 - `index.qmd` — homepage listing (`contents: posts`, `feed: true`, date desc).
 - `about.qmd` — about page, `jolla` template.
 - `posts/<slug>/index.qmd` — one directory per post, images alongside it.
@@ -33,9 +34,11 @@ quarto check                             # verify toolchain
   `posts/_metadata.yml` — set it only to override.
 - `draft: true` keeps a post out of `quarto render` and the RSS feed;
   `quarto preview` still shows it.
-- No theme customizations: stock `litera`, no custom CSS/SCSS. Add styling only
-  when asked, and prefer an SCSS layer (`theme: [litera, custom.scss]`) over a
-  plain CSS file.
+- Styling lives in `custom.scss` as an SCSS layer over `litera` — never a plain
+  CSS file. It currently only sets fonts: IBM Plex Serif for prose/headings,
+  Iosevka Nerd Font for code, self-hosted from `fonts/` (see
+  `fonts/README.md`). `url()` paths there are project-relative; Quarto copies
+  the faces to `site_libs/bootstrap/fonts/`. No third-party font CDNs.
 - Prose in Markdown wraps at 80 columns.
 
 ## Publishing

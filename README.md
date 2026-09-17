@@ -102,6 +102,10 @@ quarto publish gh-pages
 - `_quarto.yml` — site config (theme, navbar, footer, site URL, freeze).
 - `index.qmd` — homepage with the blog listing and RSS feed.
 - `about.qmd` — about page (jolla template).
+- `custom.scss` — SCSS layer over the `litera` theme; sets IBM Plex Serif for
+  prose/headings and Iosevka Nerd Font for code.
+- `fonts/` — self-hosted `woff2` faces (OFL); see `fonts/README.md` to
+  regenerate them.
 - `posts/` — one directory per post; `_metadata.yml` holds shared post
   settings.
 - `_site/`, `.quarto/` — rendered output and cache (git-ignored; do not edit

@@ -1,0 +1,73 @@
+// IBM Plex Serif for prose and headings, Iosevka Nerd Font for code.
+// Faces are self-hosted from fonts/ (see fonts/README.md for regeneration).
+// url() paths are project-relative; Quarto copies them beside the compiled
+// theme CSS in site_libs/bootstrap/fonts/.
+
+/*-- scss:defaults --*/
+
+// Litera sets the body font from $font-family-serif and headings from
+// $font-family-sans-serif, so both point at Plex Serif.
+$plex-serif: "IBM Plex Serif", Georgia, "Times New Roman", Times, serif !default;
+$font-family-serif: $plex-serif !default;
+$font-family-sans-serif: $plex-serif !default;
+$headings-font-family: $plex-serif !default;
+$font-family-monospace: "Iosevka Nerd Font", ui-monospace, SFMono-Regular, Menlo,
+  Consolas, monospace !default;
+
+/*-- scss:rules --*/
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("fonts/ibmplexserif-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("fonts/ibmplexserif-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("fonts/ibmplexserif-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Serif";
+  src: url("fonts/ibmplexserif-bolditalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Iosevka Nerd Font";
+  src: url("fonts/iosevkanerdfont-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Iosevka Nerd Font";
+  src: url("fonts/iosevkanerdfont-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Iosevka Nerd Font";
+  src: url("fonts/iosevkanerdfont-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
