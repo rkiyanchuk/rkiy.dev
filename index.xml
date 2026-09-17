@@ -8,12 +8,12 @@
 <title>Cryptography &amp; Software Engineering</title>
 <link>https://rkiy.dev/</link>
 <atom:link href="https://rkiy.dev/index.xml" rel="self" type="application/rss+xml"/>
-<description>Cryptography &amp; Software Engineering&gt; </description>
-<generator>quarto-1.9.37</generator>
+<description>Cryptography &amp; Software Engineering</description>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Wed, 03 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
+  <dc:creator>Ruslan Kiyanchuk</dc:creator>
   <link>https://rkiy.dev/posts/post-with-code/</link>
   <description><![CDATA[ 
 
@@ -244,7 +244,7 @@ font-style: inherit;">;</span></span></code></pre></div></div>
 </item>
 <item>
   <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <dc:creator>Ruslan Kiyanchuk</dc:creator>
   <link>https://rkiy.dev/posts/welcome/</link>
   <description><![CDATA[ 
 
