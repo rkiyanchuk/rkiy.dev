@@ -55,9 +55,9 @@ quarto render posts/<post-name>/index.qmd
 4. Run `quarto preview` to see it on the homepage listing (sorted by `date`
    descending).
 
-Shared post settings live in `posts/_metadata.yml` (currently: `author` and
-`title-block-banner: true`). Computational output caching is project-wide via
-`execute: freeze: auto` in `_quarto.yml`.
+Shared post settings live in `posts/_metadata.yml` (currently: `author`).
+Computational output caching is project-wide via `execute: freeze: auto` in
+`_quarto.yml`.
 
 ## Drafts
 
@@ -104,7 +104,6 @@ quarto publish gh-pages
 - `about.qmd` — about page (jolla template).
 - `posts/` — one directory per post; `_metadata.yml` holds shared post
   settings.
-- `styles.css` — custom CSS overrides on top of the `cosmo` theme.
 - `_site/`, `.quarto/` — rendered output and cache (git-ignored; do not edit
   by hand).
 - `.github/workflows/publish.yml` — CI that renders and deploys to
